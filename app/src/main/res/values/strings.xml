@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Meu Primeiro App</string>
+    <string name="butao">Logar</string>
+    <string name="plain_text_nome">Nome do usuário</string>
+    <string name="msg_boas_vindas">Bem Vindos ao meu Aplicativo</string>
+    <string name="check">Sou humano</string>
+    <string name="texto">Preencha as informacoes para realizar seu login</string>
+    <string name="dt">Data de nascimento</string>
+</resources>
