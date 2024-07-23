@@ -1,9 +1,20 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">Meu Primeiro App</string>
     <string name="butao">Logar</string>
+    <string name="butaot2">Seguir</string>
+    <string name="butaot4">Inicio</string>
     <string name="plain_text_nome">Nome do usuário</string>
     <string name="msg_boas_vindas">Bem Vindos ao meu Aplicativo</string>
-    <string name="check">Sou humano</string>
-    <string name="texto">Preencha as informacoes para realizar seu login</string>
+    <string name="check">Sou humano </string>
+    <string name="texto">Preencha as informacoes para realizar seu login </string>
     <string name="dt">Data de nascimento</string>
+    <string name="progressbar">ProgressBar</string>
+    <string name="edittext">EditText</string>
+    <string name="imagebutton">ImageButton</string>
+    <string name="button">Button</string>
+    <string name="datepicker">DatePicker</string>
+    <string name="imageview">ImageView</string>
+    <string name="msg_tela3"> Tela 3</string>
+    <string name="msg_tela4"> Tela 4</string>
+
 </resources>

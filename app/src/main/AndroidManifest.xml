@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MeuPrimeiroApp">
+        <activity android:name=".BemVindoActivity" android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".Tela3" android:parentActivityName=".BemVindoActivity">
+        </activity>
+        <activity android:name=".Tela4Activity" android:parentActivityName=".Tela3">
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -18,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

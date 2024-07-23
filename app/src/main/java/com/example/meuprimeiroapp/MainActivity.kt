@@ -1,5 +1,7 @@
 package com.example.meuprimeiroapp
 
+import android.content.Context
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -7,10 +9,14 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 
+
 class MainActivity : AppCompatActivity() {
     lateinit var progressBar: ProgressBar
     lateinit var data: DatePicker
     private val TAG = "livro"
+    //Propriedade para acessar o contexto de qualquer lugar.
+    private val context: Context get() = this
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,10 +49,17 @@ class MainActivity : AppCompatActivity() {
             }
         }
         btLogin.setOnClickListener {
+
             val tLogin = findViewById<TextView>(R.id.editTextLogin)
             val login = tLogin.text.toString()
             if (login == "yasmin") {
-                toast("Bem vindo, login realizado com sucesso")
+                val intent = Intent(context, BemVindoActivity::class.java)
+                val params = Bundle()
+                params.putString("nome", "Alexandre")
+                intent.putExtras(params)
+                startActivity(intent)
+
+                //toast("Bem vindo, login realizado com sucesso")//
             } else {
                 toast("Login incorreto!!")
             }
