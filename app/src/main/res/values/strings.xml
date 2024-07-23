@@ -4,12 +4,11 @@
     <string name="butaot2">Seguir</string>
     <string name="butaot4">Inicio</string>
     <string name="plain_text_nome">Nome do usuário</string>
-    <string name="msg_boas_vindas">Bem Vindos ao meu Aplicativo</string>
-    <string name="check">Sou humano </string>
-    <string name="texto">Preencha as informacoes para realizar seu login </string>
-    <string name="dt">Data de nascimento</string>
-    <string name="progressbar">ProgressBar</string>
-    <string name="edittext">EditText</string>
+    <string name="msg_boas_vindas">Guia de Viagem</string>
+
+
+
+    <string name="ttelainicial">Seja muito bem vindo ao nosso guia de viagens</string>
     <string name="imagebutton">ImageButton</string>
     <string name="button">Button</string>
     <string name="datepicker">DatePicker</string>
