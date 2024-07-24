@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="vermelho">#CE0015</color>
-    <color name="rosa">#ce007b</color>
-    <color name="laranja">#ce5200</color>
+    <color name="cor3">#69E9FD</color>
+    <color name="cor2">#69fdc7</color>
+    <color name="cor1">#699ffd</color>
 
 </resources>

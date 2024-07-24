@@ -14,11 +14,11 @@ class Tela3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //Visões
         setContentView(R.layout.activity_tela3)
-        val textView = findViewById<TextView>(R.id.textoTela3)
+       // val textView = findViewById<TextView>(R.id.textoTela3)
         //Args
         val args = intent.extras
         val nome = args?.getString("nome")
-        textView.text = "$nome, seja bem vindo a tela 3."
+        //textView.text = "$nome, seja bem vindo a tela 3."
         actionBar?.setDisplayHomeAsUpEnabled(true)
         //passagem para a proxima tela
         val btT3= findViewById<Button>(R.id.buttonCont)

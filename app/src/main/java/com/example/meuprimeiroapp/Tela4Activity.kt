@@ -18,7 +18,7 @@ class Tela4Activity : AppCompatActivity() {
         //Args
         val args = intent.extras
         val nome = args?.getString("nome")
-        textView.text = "$nome, seja bem vindo a tela 4."
+        //textView.text = "$nome, seja bem vindo a tela 4."
         // Desativar botão Home
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
         supportActionBar?.setHomeButtonEnabled(false)

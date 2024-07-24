@@ -1,19 +1,26 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">Meu Primeiro App</string>
-    <string name="butao">Logar</string>
+    <string name="butao">Entrar</string>
     <string name="butaot2">Seguir</string>
     <string name="butaot4">Inicio</string>
-    <string name="plain_text_nome">Nome do usuário</string>
+    <string name="tmaragogi">Maragogi - Alagoas - BR</string>
     <string name="msg_boas_vindas">Guia de Viagem</string>
+    <string name="detMaragogi"> Maragogi, localizada no litoral norte de Alagoas,
+        é um verdadeiro paraíso tropical. Conhecida como o Caribe Brasileiro, esta pequena
+        cidade é famosa por suas águas cristalinas, piscinas naturais e praias de areia branca.</string>
 
+    <string name="tbarcelona"> Barcelona - Catalunha - Espanha</string>
 
-
-    <string name="ttelainicial">Seja muito bem vindo ao nosso guia de viagens</string>
-    <string name="imagebutton">ImageButton</string>
+    <string name="ttelainicial">Explore o mundo de maneira rápido e fácil!  </string>
     <string name="button">Button</string>
-    <string name="datepicker">DatePicker</string>
     <string name="imageview">ImageView</string>
-    <string name="msg_tela3"> Tela 3</string>
-    <string name="msg_tela4"> Tela 4</string>
+    <string name="detbarcelona"> Barcelona, a vibrante capital da Catalunha, é uma cidade cheia de vida,
+        cultura e história. Conhecida por sua arquitetura única, praias deslumbrantes e culinária deliciosa,
+        Barcelona  tem um ritmo totalmente descontraído, com muitos jovens na rua, bares de tapas e festivais de música.</string>
+    <string name="tamsterda"> Amsterdã - Holanda</string>
+    <string name="dtamsterda">Amsterdã é a capital da Holanda, conhecida por seu patrimônio artístico,
+        um elaborado sistema de canais e casas estreitas com telhados de duas águas. O bairro de museus abriga o Museu Van Gogh, o Rijksmuseum,
+        com obras de Rembrandt e Vermeer, e o Stedelijk, que privilegia a arte moderna.
+        O ciclismo é uma característica essencial da cidade, que tem grande quantidade de ciclovias. </string>
 
 </resources>
