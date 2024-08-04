@@ -19,38 +19,7 @@
         app:srcCompat="@drawable/capturar"
         tools:visibility="visible" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="272dp"
-        android:layout_height="56dp"
-        android:fontFamily="@font/arbutus_slab"
-        android:text="@string/msg_boas_vindas"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/cor3"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
 
-    <Button
-        android:id="@+id/buttonCont"
-        android:layout_width="145dp"
-        android:layout_height="64dp"
-        android:text="@string/butao"
-        android:textAlignment="center"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:iconTint="@color/cor1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833"
-        app:rippleColor="@color/design_default_color_background" />
 
     <TextView
         android:id="@+id/textView8"
@@ -66,5 +35,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.649" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="189dp"
+        android:layout_height="44dp"
+        android:text="@string/msg_boas_vindas"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <Button
+        android:id="@+id/buttonCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

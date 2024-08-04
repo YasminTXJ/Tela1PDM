@@ -4,18 +4,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela3">
+    tools:context=".Tela3Activity">
 
     <TextView
         android:id="@+id/textoTela3"
         android:layout_width="387dp"
         android:layout_height="56dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+
         android:text="@string/tbarcelona"
-        android:textColor="@color/cor1"
+
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,23 +21,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.056" />
 
-    <Button
-        android:id="@+id/buttonCont"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/butaot2"
-        android:textColor="@color/design_default_color_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="422dp"
-        android:layout_height="327dp"
+        android:layout_width="445dp"
+        android:layout_height="264dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
@@ -51,21 +36,28 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="418dp"
-        android:layout_height="166dp"
-        android:background="@color/cor3"
-        android:paddingLeft="60px"
-        android:paddingTop="50px"
-        android:paddingRight="100px"
+        android:layout_width="376dp"
+        android:layout_height="145dp"
         android:text="@string/detbarcelona"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.654"
-        tools:text="@string/detbarcelona" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/butaot2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.487" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

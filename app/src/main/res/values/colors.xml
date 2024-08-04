@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="cor3">#69E9FD</color>
+    <!-- ANALOGA -->
+
+    <color name="cor4">#69E9FD</color>
     <color name="cor2">#69fdc7</color>
     <color name="cor1">#699ffd</color>
+    <color name="cor3">#ffffff</color>
+
+<!-- MONOCROMATICO verde-->
+
+    <color name="corm3">#9FFF75</color>
+    <color name="corm2">#626B5E</color>
+    <color name="corm1">#354131</color>
+
+
+    <!-- QUADRATICA verde-->
+
+    <color name="corq3">#D881EB</color>
+    <color name="corq2">#D4EDB2</color>
+    <color name="corq1">#EBC39D</color>
+    <color name="corq4">#938496</color>
+
+
+    <!-- TRIADICA -->
+
+    <color name ="cort3">#e95b5b</color>
+    <color name="cort2">#e9e95b</color>
+    <color name="cort1">#5be95b</color>
 
 </resources>

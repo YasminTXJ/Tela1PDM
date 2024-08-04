@@ -15,7 +15,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/tamsterda"
-        android:textColor="@color/cor1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,18 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.079" />
 
-    <Button
-        android:id="@+id/buttonCont"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/butaot4"
-        android:textColor="@color/design_default_color_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+
 
     <ImageView
         android:id="@+id/imageView4"
@@ -50,20 +38,27 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="419dp"
-        android:layout_height="217dp"
-        android:background="@color/cor3"
-        android:paddingLeft="60px"
-        android:paddingTop="50px"
-        android:paddingRight="100px"
+        android:layout_width="390dp"
+        android:layout_height="206dp"
         android:text="@string/dtamsterda"
-        android:textColor="@color/design_default_color_background"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78"
-        tools:text="@string/dtamsterda" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/buttonCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butaot4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.238" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

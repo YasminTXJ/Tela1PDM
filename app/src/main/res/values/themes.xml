@@ -1,16 +1,78 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+
     <style name="Theme.MeuPrimeiroApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/cor1</item>
-        <item name="colorPrimaryVariant">@color/cor2</item>//
-        <item name="colorOnPrimary">@color/cor3</item>//
+        <item name="colorPrimaryVariant">@color/cor2</item>
+         <item name="colorOnPrimary">@color/cor4</item>-->
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/cor2</item>
-        <!-- <item name="colorSecondaryVariant">@color/rosa</item>-->
-         <item name="colorOnSecondary">@color/cor3</item>
-      <!-- Status bar color. -->
+        <!--<item name="colorSecondaryVariant">@color/teal_200</item>-->
+        <item name="colorOnSecondary">@color/cor3</item>
+        <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="ThemeMono.MeuPrimeiroApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/corm1</item>
+        <item name="colorPrimaryVariant">@color/corm2</item>
+        <item name="colorOnPrimary">@color/corm3</item>-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/corm1</item>
+        <!--<item name="colorSecondaryVariant">@color/teal_200</item>-->
+        <item name="colorOnSecondary">@color/corm3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/corm1</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ThemeQuad.MeuPrimeiroApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/corq1</item>
+        <item name="colorPrimaryVariant">@color/corq2</item>
+        <item name="colorOnPrimary">@color/corq3</item>-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/corq4</item>
+        <!--<item name="colorSecondaryVariant">@color/teal_200</item>-->
+        <item name="colorOnSecondary">@color/corq4</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/corq4</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeTri.MeuPrimeiroApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cort1</item>
+        <item name="colorPrimaryVariant">@color/cort2</item>
+        <item name="colorOnPrimary">@color/cort3</item>-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cort3</item>
+        <!--<item name="colorSecondaryVariant">@color/teal_200</item>-->
+        <item name="colorOnSecondary">@color/corq1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/cort2</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- MONOCROMATICO verde-->
+    <!--
+    <color name="cor3">#9FFF75</color>
+    <color name="cor2">#626B5E</color>
+    <color name="cor1">#354131</color>
+-->
+
+    <!-- QUADRATICA verde-->
+    <!--
+    <color name="cor3">#D881EB</color>
+    <color name="cor2">#D4EDB2</color>
+    <color name="cor1">#EBC39D</color>
+    <color name="cor4">#938496</color>
+-->
+
+    <!-- TRIADICA -->
+    <!--
+    <color name ="cor3">#e95b5b</color>
+    <color name="cor2">#e9e95b</color>
+    <color name="cor1">#5be95b</color>
+    -->
 </resources>

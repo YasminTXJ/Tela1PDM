@@ -8,13 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MeuPrimeiroApp">
+        android:theme="@style/ThemeTri.MeuPrimeiroApp">
         <activity android:name=".BemVindoActivity" android:parentActivityName=".MainActivity">
 
         </activity>
-        <activity android:name=".Tela3" android:parentActivityName=".BemVindoActivity">
+        <activity android:name=".Tela3Activity" android:parentActivityName=".BemVindoActivity">
         </activity>
-        <activity android:name=".Tela4Activity" android:parentActivityName=".Tela3">
+        <activity android:name=".Tela4Activity" android:parentActivityName=".Tela3Activity">
         </activity>
         <activity
             android:name=".MainActivity"
